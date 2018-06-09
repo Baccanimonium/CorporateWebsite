@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="libs/mmenu-master/css/jquery.mmenu.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/styles-skroll.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <title>mfc</title>
+    <link rel="stylesheet" href="sass/styles.scss">
+</head>
+
+<body>
+<header class="header" id="header">
+    <div class="container">
+        <div class="row header-wrapper">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-4 header-left-block no-padding">
+
+                <a href="#" class="header-logo-block">
+                    <img src="img/logo-header.png" alt="" class="img-fluid img-logo-header">
+                </a>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-8 header-right-block">
+                <div class="row">
+                    <div class="col-xl-12 header-top-block no-padding">
+                        <div class="row no-margin align-items">
+                            <div class="col-xl-12 col-lg-12 col-md-10 col-sm-9 col-9">
+                                <div class="row">
+                                    <div class="col-xl-5 col-lg-4 col-md-5 col-sm-12 no-padding header-top-item center">
+                                        <div class="header-icon clock">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="header-text">
+                                            пн - пт: 9.30 - 20.30
+                                        </div>
+                                    </div>
+                                    <div class="space-between no-padding col-xl-7 col-lg-8 col-md-7 col-sm-12">
+                                        <div class="header-top-item phone-block">
+                                            <div class="header-icon phone">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </div>
+                                            <a class="header-phone-link" href="tel:+74957772620">+ 7 (495) 777 - 26 - 20</a>
+                                        </div>
+                                        <div class="header-top-item">
+                                            <a href="" class="button-header" data-toggle="modal" data-target="#exampleModal">
+                                                Заказать обратный звонок
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="d-lg-none col-md-2 col-sm-3 col-3 flex-end">
+                                <button id="mmenu-icon" class="Fixed hamburger hamburger--collapse" type="button">
+                               <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                               </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-xl-12 d-none d-lg-block">
+                        <div class="header-middle-block">
+                            <ul class="header-middle-list">
+                                <li class="header-middle-list-item">
+                                    <a href="" class="header-middle-item active">Услуги</a>
+                                </li>
+                                <li class="header-middle-list-item">
+                                    <a href="" class="header-middle-item">О компании</a>
+                                </li>
+                                <li class="header-middle-list-item">
+                                    <a href="" class="header-middle-item">Информация</a>
+                                </li>
+                                <li class="header-middle-list-item">
+                                    <a href="" class="header-middle-item">Статьи и аналитика</a>
+                                </li>
+                                <li class="header-middle-list-item">
+                                    <a href="" class="header-middle-item">Отзывы</a>
+                                </li>
+                                <li class="header-middle-list-item">
+                                    <a href="" class="header-middle-item">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-xl-12 d-none d-lg-block">
+                        <div class="header-bottom-block">
+                            <ul class="header-bottom-list">
+                                <li class="header-bottom-list-item">
+                                    <a href="" class="header-bottom-item active">Квартиры</a>
+                                </li>
+                                <li class="header-bottom-list-item">
+                                    <a href="" class="header-bottom-item">Новостройки</a>
+                                </li>
+                                <li class="header-bottom-list-item">
+                                    <a href="" class="header-bottom-item">Загородная</a>
+                                </li>
+                                <li class="header-bottom-list-item">
+                                    <a href="" class="header-bottom-item">Коммерческая</a>
+                                </li>
+                                <li class="header-bottom-list-item">
+                                    <a href="" class="header-bottom-item">Аренда</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-lg-none">
+                    <nav id="my-menu">
+                        <ul class="my-menu-block">
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Главная</a></li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Каталог</a>
+                                <ul>
+                                    <li class="my-menu-item"><a href="/" class="my-menu-link">Прямые диваны</a></li>
+                                    <li class="my-menu-item"><a href="/" class="my-menu-link">Угловые диваны</a></li>
+                                    <li class="my-menu-item"><a href="/" class="my-menu-link">Ткани</a></li>
+                                </ul>
+                            </li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Материалы</a></li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Акции</a></li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Где купить</a></li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Дизайнерам</a></li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Отзывы</a></li>
+                            <li class="my-menu-item"><a href="" class="my-menu-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="breadcrumbs-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Информация</a></li>
+                        <li class="breadcrumb-item active">МФЦ</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="information-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>МФЦ</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-5 col-lg-6 col-md-7">
+                <div class="information-filter-block">
+                    <div class="information-filter-name">
+                        Фильтр
+                    </div>
+                    <div class="information-filter-buttons">
+                        <a href="" class="information-filter-button button-medium active">Все округа</a>
+
+                        <a href="" class="information-filter-button button-min">ЗАО</a>
+
+                        <a href="" class="information-filter-button button-big ">Зеленоградский АО</a>
+
+                        <a href="" class="information-filter-button button-min ">ЦАО</a>
+
+                        <a href="" class="information-filter-button button-min">СЗАО</a>
+
+                        <a href="" class="information-filter-button button-min">САО</a>
+
+                        <a href="" class="information-filter-button button-min">СВАО</a>
+
+                        <a href="" class="information-filter-button button-min">ВАО</a>
+
+                        <a href="" class="information-filter-button button-min">ЮВАО</a>
+
+                        <a href="" class="information-filter-button button-min">ЮАО</a>
+
+                        <a href="" class="information-filter-button button-min">ЮЗАО</a>
+                    </div>
+                    <div class="information-filter-search">
+                        <form class="information-filter-search-form">
+                            <input class="information-filter-search-input" type="search" placeholder="Поиск по станции метро" aria-label="Search">
+                            <button class="information-filter-search-button" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+
+                        <form class="information-filter-search-form">
+                            <input class="information-filter-search-input" type="search" placeholder="Поиск по улице" aria-label="Search">
+                            <button class="information-filter-search-button" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 col-md-5">
+                <div class="information-map" id="information-map">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="text-mfc-block">
+                    <div class="text-mfc">Многофункциональные центры Москвы (МФЦ)</div>
+                    <div class="text-mfc">Режим работы всех МФЦ Москвы ежедневно с 08:00 до 20:00</div>
+                    <div class="text-mfc">Единый Телефон МФЦ Москвы: 8 (495)777-7777</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="accordion-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="accordion-text">
+                    <div class="accordion-text-item">
+                        <div class="card-header-table" id="headingOne">
+                            <button class="accordion-text-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                МФЦ ЦАО<span class="accordion-icon"><i class="fa fa-angle-down" aria-hidden="true"></i>
+</span>
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="collapse show accordion-text-wrapper" aria-labelledby="headingOne" data-parent="#accordion-text">
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-text-item">
+                        <div class="card-header-table" id="headingTwo">
+                            <button class="accordion-text-button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                МФЦ СЗАО
+                                <span class="accordion-icon"><i class="fa fa-angle-down" aria-hidden="true"></i>
+</span>
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="collapse accordion-text-wrapper" aria-labelledby="headingTwo" data-parent="#accordion-text">
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-text-item">
+                        <div class="card-header-table" id="headingThree">
+                            <button class="accordion-text-button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                МФЦ СЗАО
+                                <span class="accordion-icon"><i class="fa fa-angle-down" aria-hidden="true"></i>
+</span>
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse accordion-text-wrapper" aria-labelledby="headingThree" data-parent="#accordion-text">
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="name">Центр госуслуг района Куркино</div>
+                                <div class="operating-time">Время работы: пн-вс: 08:00-20:00</div>
+                                <div class="contact"> Контакт: +7 (495) 777-77-77</div>
+                                <div class="address">
+                                    Адрес: Новокуркинское шоссе, вл. 1
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer-block" id="footer-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="footer-item">
+                    <div class="logo-footer-block">
+                        <img src="img/logo-footer.png" alt="" class="img-fluid logo-footer">
+                    </div>
+                    <div class="footer-text width">
+                        © 2002—2018 Агентство недвижимости «Консинго»
+                        г. Москва, ул. Бауманская д. 43, стр. 2
+                    </div>
+                    <a href="" class="footer-link">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-12 space-around">
+                <div class="footer-item pr">
+                    <a href="" class="menu-footer-item">
+                        Услуги
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        О компании
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Информация
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Статьи и аналитика
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Отзывы
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Контакты
+                    </a>
+                </div>
+
+                <div class="footer-item right-text-menu">
+                    <a href="" class="menu-footer-item">
+                        Квартиры
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Новостройки
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Загородная
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Коммерческая
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Аренда
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-12 right">
+                <div class="footer-item">
+                    <div class="footer-contact-block">
+                        <div class="footer-icon clock">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer-contact-text">
+                            пн - пт: 9.30 - 20.30
+                        </div>
+                    </div>
+                    <div class="footer-contact-block">
+                        <div class="footer-icon phone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <a class="footer-contact-text footer-phone-link" href="tel:+74957772620">+ 7 (495) 777 - 26 - 20</a>
+                    </div>
+                    <div class="social-block">
+                        <a href="" class="social-item">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <a href="" class="footer-link">Разработка сайта  “Remake”</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку<br>
+                    <span> и мы Вам перезвоним</span>
+                </h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="input-group justify-content-center">
+                <input type="text" name="NAME" class="form-control" placeholder="Ваше имя">
+
+            </div>
+            <div class="input-group justify-content-center">
+                <input type="text" name="PHONE" class="form-control" placeholder="Номер телефона">
+            </div>
+            <button type="submit" class="button-primary"> Отправить заявку</button>
+            <div class="modal-footer">
+                <div class="text-confidentiality">
+                    Заполняя данную форму, Вы соглашаетесь с политикой конциденциальности сайта.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    ymaps.ready(init);
+    function init () {
+        var myMap = new ymaps.Map('information-map', {
+            center: [55.75399399999374,37.62209300000001],
+            zoom: 7,
+            controls: []
+        });
+        myMap.behaviors.disable("scrollZoom");
+        myMap.controls.add("zoomControl", {
+            position: {top: 15, left: 15}
+        });
+
+
+    }
+</script>
+
+<script src="libs/mmenu-master/js/jquery.mmenu.min.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/0ddad71e7a.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/baron.js"></script>
+<script src="js/general.js"></script>
+</body>
+</html>

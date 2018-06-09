@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/easydropdown.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>sale-house-and-rooms-table</title>
+</head>
+
+<body>
+<header class="header" id="header">
+    <div class="container">
+        <div class="row header-wrapper">
+            <div class="col-xl-3 col-lg-3 col-md-3 header-left-block">
+                <a href="#" class="header-logo-block">
+                    <img src="img/logo-header.png" alt="" class="img-fluid img-logo-header">
+                </a>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-9 header-right-block">
+                <div class="header-top-block">
+                    <div class="row no-margin">
+                        <div class="col-lg-5 no-padding header-top-item center">
+                            <div class="header-icon clock">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="header-text">
+                                пн - пт: 9.30 - 20.30
+                            </div>
+                        </div>
+                        <div class="space-between no-padding col-lg-7">
+                            <div class="header-top-item phone-block">
+                                <div class="header-icon phone">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <a class="header-phone-link" href="tel:+74957772620">+ 7 (495) 777 - 26 - 20</a>
+                            </div>
+                            <div class="header-top-item">
+                                <a href="" class="button-header" data-toggle="modal" data-target="#exampleModal">
+                                    Заказать обратный звонок
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-middle-block">
+                    <ul class="header-middle-list">
+                        <li class="header-middle-list-item">
+                            <a href="" class="header-middle-item active">Услуги</a>
+                        </li>
+                        <li class="header-middle-list-item">
+                            <a href="" class="header-middle-item">О компании</a>
+                        </li>
+                        <li class="header-middle-list-item">
+                            <a href="" class="header-middle-item">Информация</a>
+                        </li>
+                        <li class="header-middle-list-item">
+                            <a href="" class="header-middle-item">Статьи и аналитика</a>
+                        </li>
+                        <li class="header-middle-list-item">
+                            <a href="" class="header-middle-item">Отзывы</a>
+                        </li>
+                        <li class="header-middle-list-item">
+                            <a href="" class="header-middle-item">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-bottom-block">
+                    <ul class="header-bottom-list">
+                        <li class="header-bottom-list-item">
+                            <a href="" class="header-bottom-item active">Квартиры</a>
+                        </li>
+                        <li class="header-bottom-list-item">
+                            <a href="" class="header-bottom-item">Новостройки</a>
+                        </li>
+                        <li class="header-bottom-list-item">
+                            <a href="" class="header-bottom-item">Загородная</a>
+                        </li>
+                        <li class="header-bottom-list-item">
+                            <a href="" class="header-bottom-item">Коммерческая</a>
+                        </li>
+                        <li class="header-bottom-list-item">
+                            <a href="" class="header-bottom-item">Аренда</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="breadcrumbs-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Квартиры</a></li>
+                        <li class="breadcrumb-item active">Продажа квартир и комнат (вторичное жилье)</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sale-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Продажа квартир и комнат (вторичное жилье)</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
+                <div class="d-sm-none d-xs-block">
+                    <a href="" class="hidden-filter">
+                        Скрыть фильтр
+                    </a>
+                </div>
+                <div class="filter-block">
+                    <div class="filter-wrapper">
+                        <div class="group-buttons">
+                            <button class="filter-button">Все</button>
+                            <button class="filter-button active">Москва</button>
+                            <button class="filter-button">Подмосковье</button>
+                        </div>
+                        <div class="input-group">
+                            <select class="dropdown" name="TYPE">
+                                <option value="" hidden>Тип</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <select class="dropdown" name="DISTRICT">
+                                <option value="" hidden>Округ</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <select class="dropdown" name="STATION">
+                                <option value="" hidden>Станция метро</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                        <div class="input-group distance-block">
+                            <div class="text-border">Расстояние до метро (м.)</div>
+                            <input type="text" name="DISTANCE" class="input-distance">
+                        </div>
+                        <div class="input-group">
+                            <select class="dropdown" name="LOCATION">
+                                <option value="" hidden>Расположение</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                        <div class="card-filter">
+                            <div class="card-header-filter" id="headingOne">
+                                <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Общая площадь <span class="accordion-icon"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                </button>
+                            </div>
+
+                            <div id="collapseOne" class="collapse">
+                                <div class="card-body-filter">
+                                    <input type="text" name="DISTANCE" class="input-card-filter">
+                                    <div class="line"></div>
+                                    <input type="text" name="DISTANCE" class="input-card-filter">
+                                </div>
+                                <input type="range" min="0" max="100" step="1" value="50">
+                            </div>
+
+                        </div>
+
+                    <div class="filter-wrapper">
+                        <div class="input-group mt5">
+                            <select class="dropdown select-arrow-angle" name="AREA">
+                                <option>Жилая площадь</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <select class="dropdown select-arrow-angle" name="AREA-KITCHEN">
+                                <option>Площадь кухни</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <select class="dropdown select-arrow-angle" name="NUMBER-ROOM">
+                                <option>Количество комнат</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-filter">
+                        <div class="card-header-filter" id="headingOne-floor">
+                            <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne-floor" aria-expanded="false" aria-controls="collapseOne-floor">
+                                Этаж<span class="accordion-icon"><i class="fa fa-angle-down" aria-hidden="false"></i></span>
+                            </button>
+                        </div>
+
+                        <div id="collapseOne-floor" class="collapse">
+                            <div class="card-body-filter">
+                                <input type="text" name="DISTANCE" class="input-card-filter">
+                                <div class="line"></div>
+                                <input type="text" name="DISTANCE" class="input-card-filter">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper">
+                        <div class="input-group">
+                            <select class="dropdown select-arrow-angle" name="NUMBER-FLOOR">
+                                <option>Количество этажей</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-filter">
+                        <div class="card-header-filter" id="headingOne-price">
+                            <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne-price" aria-expanded="false" aria-controls="collapseOne-price">
+                                Этаж<span class="accordion-icon"><i class="fa fa-angle-down" aria-hidden="false"></i></span>
+                            </button>
+                        </div>
+
+                        <div id="collapseOne-price" class="collapse">
+                            <div class="card-body-filter">
+                                <input type="text" name="DISTANCE" class="input-card-filter">
+                                <div class="line"></div>
+                                <input type="text" name="DISTANCE" class="input-card-filter">
+                            </div>
+                            <div class="checkbox-block">
+                                <div class="checkbox-item">
+                                    <label><input type="checkbox"/><i class="fa fa-rub" aria-hidden="true"></i>млн
+                                    </label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <label><input type="checkbox"/><i class="fa fa-usd" aria-hidden="true"></i>
+                                        млн
+                                    </label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <label><input type="checkbox"/><i class="fa fa-eur" aria-hidden="true"></i>
+                                        млн
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="range" min="0" max="100" step="1" value="50">
+                        </div>
+                    </div>
+                    <div class="filter-wrapper">
+                        <div class="input-group">
+                            <select class="dropdown select-arrow-angle" name="PRICE-M">
+                                <option>Цена за метр</option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                                <option>
+                                    Евроремонт
+                                </option>
+                            </select>
+                        </div>
+                        <div class="group-buttons">
+                            <button class="filter-button blue">Применить</button>
+                            <button class="filter-button">Сбросить фильтр</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-md-7 col-sm-6">
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        <div class="block">
+                            <div class="sort-select-block">
+                                <div class="sort-select-text">
+                                    Сортировать
+                                </div>
+                                <div id="animal-select" class="customselect">
+                                    <button  class="title">По умолчанию</button>
+                                    <ul>
+                                        <li value="asd">По умолчанию</li>
+                                        <li value="asd">Количество комнат</li>
+                                        <li value="asd">Количество комнат</li>
+                                        <li value="d">Этаж</li>
+                                        <li value="d">Этаж</li>
+                                        <li value="d">Количество этажей</li>
+                                        <li value="d">Количество этажей</li>
+                                        <li value="d">Удаленность от метро</li>
+                                        <li value="d">Удаленность от метро</li>
+                                        <li value="d">Удаленность от Москвы</li>
+                                        <li value="d">Удаленность от Москвы</li>
+                                        <li value="d">Площадь общая</li>
+                                        <li value="d">Площадь общая</li>
+                                        <li value="d">Площадь жилая</li>
+                                        <li value="d">Площадь жилая</li>
+                                        <li value="d">Площадь кухни</li>
+                                        <li value="d">Площадь кухни</li>
+                                        <li value="d">Цена</li>
+                                        <li value="d">Цена</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="group-buttons-block">
+                                <a href="" class="button-watch-map">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    Смотреть карту
+                                </a>
+                                <div class="editing-button-block">
+                                    <a href="" class="editing-item active">
+                                        <i class="fa fa-th-large" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="" class="editing-item">
+                                        <i class="fa fa-list" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="" class="editing-item">
+                                        <i class="fa fa-align-justify" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sale-house-block">
+                            <div class="sale-house-img-block">
+                                <img src="img/sale-house-img.png" alt="" class="img-fluid sale-house-img">
+                            </div>
+                            <div class="sale-house-content border-top">
+                                <a href class="sale-house-name">
+                                    Квартира м. Парк Победы,
+                                    ул. Мосфильмовская, д. 8
+                                </a>
+                                <div class="sale-house-description">
+                                    4 ккв, 5-50 эт., 238,5/187,9/28.7 км.м,
+                                    панельный
+                                </div>
+                                <div class="sale-house-row space-between">
+                                    <div class="sale-house-price">
+                                        <div class="price">
+                                            74 800 000
+                                        </div>
+                                        <div class="icon-currency">
+                                            <i class="fa fa-rub" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sale-house-underground">
+                                        <div class="icon-underground">
+                                            <img src="img/underground-icon.png" alt="" class="img-fluid underground-img">
+                                        </div>
+                                        <div class="name-underground">
+                                            Парк Победы
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sale-house-block">
+                            <div class="sale-house-img-block">
+                                <img src="img/sale-house-img.png" alt="" class="img-fluid sale-house-img">
+                            </div>
+                            <div class="sale-house-content border-top">
+                                <a href class="sale-house-name">
+                                    Квартира м. Парк Победы,
+                                    ул. Мосфильмовская, д. 8
+                                </a>
+                                <div class="sale-house-description">
+                                    4 ккв, 5-50 эт., 238,5/187,9/28.7 км.м,
+                                    панельный
+                                </div>
+                                <div class="sale-house-row space-between">
+                                    <div class="sale-house-price">
+                                        <div class="price">
+                                            74 800 000
+                                        </div>
+                                        <div class="icon-currency">
+                                            <i class="fa fa-rub" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sale-house-underground">
+                                        <div class="icon-underground">
+                                            <img src="img/underground-icon.png" alt="" class="img-fluid underground-img">
+                                        </div>
+                                        <div class="name-underground">
+                                            Парк Победы
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sale-house-block">
+                            <div class="sale-house-img-block">
+                                <img src="img/sale-house-img.png" alt="" class="img-fluid sale-house-img">
+                            </div>
+                            <div class="sale-house-content border-top">
+                                <a href class="sale-house-name">
+                                    Квартира м. Парк Победы,
+                                    ул. Мосфильмовская, д. 8
+                                </a>
+                                <div class="sale-house-description">
+                                    4 ккв, 5-50 эт., 238,5/187,9/28.7 км.м,
+                                    панельный
+                                </div>
+                                <div class="sale-house-row space-between">
+                                    <div class="sale-house-price">
+                                        <div class="price">
+                                            74 800 000
+                                        </div>
+                                        <div class="icon-currency">
+                                            <i class="fa fa-rub" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sale-house-underground">
+                                        <div class="icon-underground">
+                                            <img src="img/underground-icon.png" alt="" class="img-fluid underground-img">
+                                        </div>
+                                        <div class="name-underground">
+                                            Парк Победы
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sale-house-block">
+                            <div class="sale-house-img-block">
+                                <img src="img/sale-house-img.png" alt="" class="img-fluid sale-house-img">
+                            </div>
+                            <div class="sale-house-content border-top">
+                                <a href class="sale-house-name">
+                                    Квартира м. Парк Победы,
+                                    ул. Мосфильмовская, д. 8
+                                </a>
+                                <div class="sale-house-description">
+                                    4 ккв, 5-50 эт., 238,5/187,9/28.7 км.м,
+                                    панельный
+                                </div>
+                                <div class="sale-house-row space-between">
+                                    <div class="sale-house-price">
+                                        <div class="price">
+                                            74 800 000
+                                        </div>
+                                        <div class="icon-currency">
+                                            <i class="fa fa-rub" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sale-house-underground">
+                                        <div class="icon-underground">
+                                            <img src="img/underground-icon.png" alt="" class="img-fluid underground-img">
+                                        </div>
+                                        <div class="name-underground">
+                                            Парк Победы
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sale-house-block">
+                            <div class="sale-house-img-block">
+                                <img src="img/sale-house-img.png" alt="" class="img-fluid sale-house-img">
+                            </div>
+                            <div class="sale-house-content border-top">
+                                <a href class="sale-house-name">
+                                    Квартира м. Парк Победы,
+                                    ул. Мосфильмовская, д. 8
+                                </a>
+                                <div class="sale-house-description">
+                                    4 ккв, 5-50 эт., 238,5/187,9/28.7 км.м,
+                                    панельный
+                                </div>
+                                <div class="sale-house-row space-between">
+                                    <div class="sale-house-price">
+                                        <div class="price">
+                                            74 800 000
+                                        </div>
+                                        <div class="icon-currency">
+                                            <i class="fa fa-rub" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sale-house-underground">
+                                        <div class="icon-underground">
+                                            <img src="img/underground-icon.png" alt="" class="img-fluid underground-img">
+                                        </div>
+                                        <div class="name-underground">
+                                            Парк Победы
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sale-house-block">
+                            <div class="sale-house-img-block">
+                                <img src="img/sale-house-img.png" alt="" class="img-fluid sale-house-img">
+                            </div>
+                            <div class="sale-house-content border-top">
+                                <a href class="sale-house-name">
+                                    Квартира м. Парк Победы,
+                                    ул. Мосфильмовская, д. 8
+                                </a>
+                                <div class="sale-house-description">
+                                    4 ккв, 5-50 эт., 238,5/187,9/28.7 км.м,
+                                    панельный
+                                </div>
+                                <div class="sale-house-row space-between">
+                                    <div class="sale-house-price">
+                                        <div class="price">
+                                            74 800 000
+                                        </div>
+                                        <div class="icon-currency">
+                                            <i class="fa fa-rub" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sale-house-underground">
+                                        <div class="icon-underground">
+                                            <img src="img/underground-icon.png" alt="" class="img-fluid underground-img">
+                                        </div>
+                                        <div class="name-underground">
+                                            Парк Победы
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    Найдено 237 предложений. Можете также поискать среди <a href="" class="not-exclusive-objects-link"> неэксклюзивных объектов.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4>Продажа квартир Москва</h4>
+                <p>Основной сегмент рынка недвижимости составляют квартиры в новостройках и квартирах вторичного жилья. Покупка новой квартиры и обмен своего жилья на лучшее -это закономерный этап жизни любого успешного человека. Очень часто перед тем, как купить новое жилье, человек продает свою старую квартиру или комнату, расселяется из коммунальной квартиры. Рынок недвижимости Москвы и Подмосковья настолько широк, что каждый может выбрать себе что-нибудь подходящие и по карману. Можно купить 1 квартиру, двухкомнатную или даже купить 3-х квартиру в Москве, все чаще и чаще осуществляется не только продажа комнат, но и продажа квартир в городе.</p>
+                <h4>Купить квартиру в Москве</h4>
+                <p>По различным причинам люди постоянно продают и покупают недвижимость, продажа квартир всегда пользуется огромным спросом, особенно в Москве. Приезжие и коренные москвичи стремятся купить 3-х комнатную квартиру в самом центре города, но не у всех хватает финансовых возможностей. Цены на квартиры абсолютно разные. Поэтому, проще, для начала, купить 1 комнатную квартиру, которая может располагаться не обязательно в Москве, а в Подмосковье, например купить квартиру в Реутово, погодя собрав капитал вполне можно устремить свой взгляд на более желаемый вариант, на квартиру с большей площадью и купить 2 комнатную квартиру уже в городе. Москва предлагает большой ассортимент, но 3-х комнатная квартира, но — это роскошь, однако и они постоянно покупаются и продаются.</p>
+                <h4>Продажа квартир вторичное жилье</h4>
+                <p>Для тех, кто решил продать свою квартиру, агентство недвижимости станет лучшим помощником, квартира в городе будет с легкостью продана с его участием. Продажа квартир вторичное жилье является самым популярным. Те, кто хочет купить 2 квартиру в Москве, могут сделать это, не продавая первую, если на это хватает средств. Продажа комнат осуществляется с завидным постоянством, цены на них гораздо ниже, чем на продажу однокомнатных квартир. Продажа трехкомнатных квартир и продажа двухкомнатных квартир в Москве осуществляется ничуть не реже, чем покупка или продажа 1 комнатных квартир которые находятся в центре городе Москва.	Обратите внимание, что наша база недвижимости постоянно обновляется и вы всегда сможете воспользоваться самыми свежими предложениями, покупками квартир, комнат или например <a href="">продажей коттеджей в Подмосковье.</a></p>
+                <p>Любой желающий с легкостью сможет купить или продать 1-2-3 комнатные квартиры, их ассортимент поражает разнообразием. Благодаря современным опытным агентством недвижимости Консинго и с этим не возникнет вовсе никаких проблем.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer-block" id="footer-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="footer-item">
+                    <div class="logo-footer-block">
+                        <img src="img/logo-footer.png" alt="" class="img-fluid logo-footer">
+                    </div>
+                    <div class="footer-text width">
+                        © 2002—2018 Агентство недвижимости «Консинго»
+                        г. Москва, ул. Бауманская д. 43, стр. 2
+                    </div>
+                    <a href="" class="footer-link">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-12 space-around">
+                <div class="footer-item pr">
+                    <a href="" class="menu-footer-item">
+                        Услуги
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        О компании
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Информация
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Статьи и аналитика
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Отзывы
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Контакты
+                    </a>
+                </div>
+
+                <div class="footer-item right-text-menu">
+                    <a href="" class="menu-footer-item">
+                        Квартиры
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Новостройки
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Загородная
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Коммерческая
+                    </a>
+                    <a href="" class="menu-footer-item">
+                        Аренда
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-12 right">
+                <div class="footer-item">
+                    <div class="footer-contact-block">
+                        <div class="footer-icon clock">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer-contact-text">
+                            пн - пт: 9.30 - 20.30
+                        </div>
+                    </div>
+                    <div class="footer-contact-block">
+                        <div class="footer-icon phone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <a class="footer-contact-text footer-phone-link" href="tel:+74957772620">+ 7 (495) 777 - 26 - 20</a>
+                    </div>
+                    <div class="social-block">
+                        <a href="" class="social-item">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <a href="" class="footer-link">Разработка сайта  “Remake”</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку<br>
+                    <span> и мы Вам перезвоним</span>
+                </h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="input-group justify-content-center">
+                <input type="text" name="NAME" class="form-control" placeholder="Ваше имя">
+
+            </div>
+            <div class="input-group justify-content-center">
+                <input type="text" name="PHONE" class="form-control" placeholder="Номер телефона">
+            </div>
+            <button type="submit" class="button-primary"> Отправить заявку</button>
+            <div class="modal-footer">
+                <div class="text-confidentiality">
+                    Заполняя данную форму, Вы соглашаетесь с политикой конциденциальности сайта.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/0ddad71e7a.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.easydropdown.js" type="text/javascript"></script>
+<script src="js/general.js"></script>
+</body>
+</html>
